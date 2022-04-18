@@ -1,0 +1,24 @@
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user__avatar {
+  width: 57px;
+  height: 57px;
+}
+.user__avatar img {
+  border-radius: 50%;
+}
+
+.user__content {
+  padding-left: 9px;
+}
+
+.user__name {
+  font-size: 1.06rem;
+  line-height: 1.2;
+  color: red;
+  font-weight: 700;
+}
